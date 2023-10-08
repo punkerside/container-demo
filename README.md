@@ -1,6 +1,6 @@
 | Category | Tool |
 | ---------| -----|
-|  Security | Checkov |
+|  Security | Snyk |
 |  Testing | Jest |
 |  Quality | SonarQube |
 |  Operations | Terraform |

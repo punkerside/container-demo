@@ -1,1 +1,6 @@
 passwd
+.npm/
+node_modules/
+package-lock.json
+.cache/
+.config/
