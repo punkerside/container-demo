@@ -1,5 +1,6 @@
-FROM alpine:3.18.4
-RUN apk update && apk add --no-cache npm
+FROM ubuntu:22.04
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update && apt-get install -y npm
 RUN npm install snyk -g
 WORKDIR /app
 ENTRYPOINT [ "snyk"]
